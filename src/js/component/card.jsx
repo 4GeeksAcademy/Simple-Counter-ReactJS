@@ -22,8 +22,6 @@ function App() {
       </Card.Body>
       <Card.Footer className="footer">
 
-        <Button variant="success">Play/Pause</Button>
-        <Button variant="warning" onClick={()=>setCount(count)}>Stop</Button>
         <Button variant="danger" onClick={()=>setCount(0)}>reset</Button>
       
       </Card.Footer>
